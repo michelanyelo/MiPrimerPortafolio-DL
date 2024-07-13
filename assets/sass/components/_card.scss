@@ -1,0 +1,13 @@
+.card {
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid $card-border-color;
+    background-color: $card-bg-color;
+    box-shadow: 6px 8px 10px $card-shadow-color;
+    transition: transform 0.5s;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}

@@ -1,0 +1,12 @@
+.fa-skill {
+    color: $fontawesome-color;
+    font-size: 3rem;
+    transition: transform 0.5s;
+
+    &:hover {
+        color: $anchor-hover-color;
+        cursor: pointer;
+        transform: scale(1.2);
+        
+    }
+}
