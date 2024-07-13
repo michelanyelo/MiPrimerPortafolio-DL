@@ -61,9 +61,7 @@
                             <i class="bi bi-linkedin"></i> LinkedIn</a> o por correo electrónico
                         <a href="mailto:michelanyelo@gmail.com">michelanyelo@gmail.com</a>
                     </p>
-                    <div class="d-grid gap-2 col-12 col-md-5">
-                        <a href="mailto:michelanyelo@gmail.com" class="btn btn-primary">Contactame</a>
-                    </div>
+                    <a class="btn btn-primary col-12 col-md-4">Contactame</a>
                 </div>
             </div>
         </section>
@@ -71,7 +69,7 @@
 
     <main class="container my-5">
         <!-- skills -->
-        <section id="skills">
+        <section id="skills" class="py-3">
             <h2 class="fs-3 text-center my-5">Mis Habilidades</h2>
             <div class="row">
                 <!-- Python -->
@@ -118,11 +116,11 @@
         </section>
 
         <!-- proyectos -->
-        <section id="projects">
+        <section id="projects" class="py-3">
             <h2 class="fs-3 text-center my-5">Mis Proyectos</h2>
             <div class="row">
                 <!-- proyecto 1 -->
-                <div class="col-6 col-lg-3 mb-5">
+                <div class="col-6 col-lg-3">
                     <a href="https://github.com/michelanyelo/ViajesChileDesafioLatam" target="_blank"
                         class="text-decoration-none">
                         <div class="card h-100 border border-0">
@@ -135,7 +133,7 @@
                     </a>
                 </div>
                 <!-- proyecto 2 -->
-                <div class="col-6 col-lg-3 mb-5">
+                <div class="col-6 col-lg-3">
                     <a href="https://github.com/michelanyelo/BlogFrontEnd-sass-DL" target="_blank"
                         class="text-decoration-none">
                         <div class="card h-100 border border-0">
@@ -148,7 +146,7 @@
                     </a>
                 </div>
                 <!-- proyecto 3 -->
-                <div class="col-6 col-lg-3 mb-5">
+                <div class="col-6 col-lg-3">
                     <a href="https://github.com/michelanyelo/CafeAgere-DL" target="_blank" class="text-decoration-none">
                         <div class="card h-100 border border-0">
                             <img src="assets/img/proyectos.jpeg" class="card-img-top img-fluid"
@@ -160,7 +158,7 @@
                     </a>
                 </div>
                 <!-- proyecto 4 -->
-                <div class="col-6 col-lg-3 mb-5">
+                <div class="col-6 col-lg-3">
                     <a href="https://github.com/michelanyelo/Houtel-DL" target="_blank" class="text-decoration-none">
                         <div class="card h-100 border border-0">
                             <img src="assets/img/proyectos.jpeg" class="card-img-top img-fluid"
@@ -170,6 +168,61 @@
                             </div>
                         </div>
                     </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- contacto  -->
+        <section id="contacto" class="py-3">
+            <h2 class="fs-3 text-center my-5">Contactame</h2>
+            <div class="row">
+                <!-- form -->
+                <div class="col-12 col-md-6">
+                    <form>
+                        <div class="row">
+                            <div class="col-6 mb-3">
+                                <input type="text" placeholder="Nombre" class="form-control" id="firstName">
+                            </div>
+                            <div class="col-6 mb-3">
+                                <input type="text" placeholder="Apellido" class="form-control" id="lastName">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Tu Email" class="form-control" id="email"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <textarea id="message" class="w-100 p-2 border-light-subtle rounded"
+                                placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary col-12 col-md-4">Enviar</button>
+                    </form>
+                </div>
+
+                <!-- datos personales -->
+                <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="d-flex gap-2">
+                        <i class="fa-solid fa-phone fs-5"></i>
+                        <p class="fw-bold">+569 99999999</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa-solid fa-envelope fs-5"></i>
+                        <p class="fw-bold">michelanyelo.dev@gmail.com</p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa-brands fa-github fs-5"></i>
+                        <p class="fw-bold">
+                            <a class="text-light" href="https://github.com/michelanyelo"
+                                target="_blank">Michelanyelo</a>
+                        </p>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <i class="fa-brands fa-linkedin fs-5"></i>
+                        <p class="fw-bold">
+                            <a class="text-light" href="https://www.linkedin.com/in/miguelmonzon-inf/"
+                                target="_blank">Miguel Monzón Martínez</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
