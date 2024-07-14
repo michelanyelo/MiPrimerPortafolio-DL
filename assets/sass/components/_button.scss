@@ -1,10 +1,11 @@
-button, .btn {
-    background-color: $button-bg-color;
-    border-color: $button-bg-color;
-    color: $button-text-color;
-  
-    &:hover {
-      background-color: lighten($button-bg-color, 10%);
-      border-color: lighten($button-bg-color, 10%);
-    }
+button,
+.btn {
+  background-color: $button-bg-color;
+  border-color: $button-bg-color;
+
+  &:hover {
+    color: $color-background;
+    background-color: lighten($button-bg-color, 10%);
+    border-color: lighten($button-bg-color, 10%);
   }
+}

@@ -1,40 +1,26 @@
-// color
+// Definición de variables personalizadas
+
+// Colores base
 $color-dark: #352F44;
 $color-medium: #5C5470;
 $color-light: #B9B4C7;
 $color-background: #FAF0E6;
-
-// intento de modificar caracteristicas base de bootstrap (funciona)
-// // bootstrap
-// // navbar
-// $navbar-dark-color: $color-background;
-// $navbar-dark-active-color: $color-light;
-// // card
-// $card-border-color: $jet;
-// $card-color: $light-gray;
-// // $card-box-shadow: 0 16px 30px rgba(255, 219, 104, .8);
-
-
-// Colores por función
-// Definición de Colores
-$color-dark: #352F44;
-$color-medium: #5C5470;
-$color-light: #B9B4C7;
-$color-background: #FAF0E6;
+$color-background-light: #fff9f3;
 
 // Colores por función
 $navbar-bg-color: $color-dark;
 $navbar-text-color: $color-background;
 $header-color: $color-dark;
 $paragraph-color: $color-medium;
-$card-border-color: $color-light;
 $button-bg-color: $color-dark;
 $button-text-color: $color-background;
 $body-bg-color: $color-background;
 $anchor-color: $color-dark;
 $anchor-hover-color: darken($color-dark, 10%);
 $fontawesome-color: $color-dark;
-$card-bg-color: $color-background;
+$card-bg-color: $color-background-light;
 $card-shadow-color: #352f4433;
 
-// Paleta https://colorhunt.co/palette/352f445c5470b9b4c7faf0e6
+// Tamaños personalizados
+$card-radius: 0.5rem;
+

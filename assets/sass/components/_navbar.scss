@@ -1,12 +1,3 @@
 nav {
     background-color: $navbar-bg-color;
-    color: $navbar-text-color;
-
-    a {
-        color: $navbar-text-color;
-
-        &:hover {
-            color: lighten($navbar-text-color, 10%);
-        }
-    }
 }
