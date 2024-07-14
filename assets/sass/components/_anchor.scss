@@ -1,9 +1,9 @@
 a {
     color: $anchor-color;
     transition: transform 0.5s;
+    text-decoration: none;
 
     &:hover {
       color: $anchor-hover-color;
-      text-decoration: underline;
     }
   }

@@ -23,4 +23,19 @@ $card-shadow-color: #352f4433;
 
 // Tamaños personalizados
 $card-radius: 0.5rem;
+$spacer: 2rem;
 
+// Modificación de variables de Bootstrap
+
+// Navbar
+$navbar-dark-color: $color-light;
+$navbar-dark-active-color: $navbar-text-color;
+
+// Cards
+$card-border-color: $color-light;
+$card-bg: $card-bg-color;
+$card-border-radius: $card-radius;
+$card-title-color: $header-color;
+
+// Buttons
+$btn-color: $button-bg-color;
